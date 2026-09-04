@@ -1,6 +1,7 @@
 # Note: this is vibe coded (dont sue me i dont know how to use prompt_toolkit i might fix it when i learn)
 
 
+
 from prompt_toolkit.application import Application # type: ignore
 from prompt_toolkit.buffer import Buffer # type: ignore
 from prompt_toolkit.key_binding import KeyBindings # type: ignore
