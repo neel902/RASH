@@ -34,6 +34,20 @@ class FileAPI:
 
         return content.get(path, None) if path in content.keys() else "\033[91mUNKNOWN FILE\033[0m"
 
+    def file_exists(path):
+        from pathlib import Path
+        
+        import json
+
+
+        script_dir = Path(__file__).resolve().parent
+
+        file_path = script_dir / "filesystem"
+
+        with open(file_path, "r") as file:
+            content = json.load(file)
+
+        return path in content.keys()
     def set_file(path, value):
 
         from pathlib import Path

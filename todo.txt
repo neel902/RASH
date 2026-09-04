@@ -4,3 +4,5 @@
 - add more items to this todo list
 - world domination (optional)
 - pizza (not optional)
+- woah vscode has cool icon for todo.txt thats cool
+- add encryption
