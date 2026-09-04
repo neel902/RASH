@@ -18,20 +18,6 @@
 - Drive formatting and drive information commands
 - File creation, reading, editing, and deletion
 
-## Project Structure
-
-The project is split into components similar to:
-
-```text
-RASH/
-├── RASHFileAPI.py       # Virtual filesystem API
-├── RASHFileEditor.py    # Terminal text editor
-├── <main RASH file>     # Terminal / command implementation
-└── filesystem           # JSON-based VFS
-```
-
-The exact filenames may differ depending on how the project is organized.
-
 ## Requirements
 
 RASH uses Python and the following third-party packages:
@@ -51,7 +37,7 @@ pip install prompt_toolkit pygments
 Run the main Python program:
 
 ```bash
-python <main_file>.py
+python main.py
 ```
 
 You should be greeted by the RASH terminal interface.
