@@ -3,7 +3,6 @@
 **Rash Sandboxing Interface (RSI)** is a small, terminal-based sandbox environment written in Python. It provides a custom command-line interface, a JSON-backed virtual filesystem, an integrated text editor, a Python console, simple RAM simulation, and a handful of Unix-like command aliases.
 
 > **Status:** Experimental / hobby project  
-> **Note:** This project is vibe coded and may contain bugs or unfinished features.
 
 ## Features
 
