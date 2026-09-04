@@ -1,0 +1,6 @@
+- add package manager (dual repo design)
+- rewrite text editor
+- make ram not useless
+- add more items to this todo list
+- world domination (optional)
+- pizza (not optional)
